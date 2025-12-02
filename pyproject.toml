@@ -1,0 +1,7 @@
+[project]
+name = "Base RAG"
+version = "0.1.0"
+description = "BASE RAG(qdrant)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []

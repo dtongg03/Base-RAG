@@ -1,11 +1,11 @@
 from embedding import embed_texts
-from data_process import load_text_files, load_pdf_files, build_sentence_chunks
+from data_process import load_all_documents, build_sentence_chunks
 from qdrant_setup import get_qdrant_client, init_collection, upsert_embeddings
 from qdrant_setup import search_qdrant
 
 def main():
     print("Đang load dữ liệu từ thư mục ../data ...")
-    docs = load_text_files("../data")
+    docs = load_all_documents("../data")
     print(f"   -> Tìm được {len(docs)} documents")
     print("Count Chunk")
     chunks = build_sentence_chunks(docs)
