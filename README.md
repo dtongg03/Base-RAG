@@ -157,6 +157,7 @@ User enters questions
 
 System retrieves relevant chunks
 
+<<<<<<< HEAD
 🔧 Configuration
 
 You can adjust:
@@ -190,8 +191,15 @@ Build a chatbot interface using React / Vue / Streamlit.
 ✔ Multi-file Formats
 
 Add support for DOCX, MD, HTML, images (OCR), etc.
+=======
+
+>>>>>>> 82cd4eafb8c84745319d71e0a40cf83a9a63650f
 
 📄 License
 
 MIT License
+<<<<<<< HEAD
 Free for personal and commercial use.
+=======
+Free for personal and commercial use.
+>>>>>>> 82cd4eafb8c84745319d71e0a40cf83a9a63650f
