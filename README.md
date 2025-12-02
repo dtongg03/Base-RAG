@@ -157,39 +157,7 @@ User enters questions
 
 System retrieves relevant chunks
 
-🔧 Configuration
 
-You can adjust:
-
-Parameter	Location	Description
-Chunk size	data_process.py	Sentence, paragraph, or window chunking
-Embedding model	embedding.py	Replace with any SentenceTransformer model
-Vector DB path	qdrant_setup.py	Default: ./vector_store
-Top-K results	qa.py	Default: 3
-🧱 Extending This Project
-
-This repository offers a minimal RAG foundation.
-It can be extended with:
-
-✔ LLM Response Generation
-
-Use GPT, Claude, or Llama to generate final answers from retrieved context.
-
-✔ Re-Ranking (Improved Accuracy)
-
-Add a Cross-Encoder model to reorder retrieved results.
-
-✔ FastAPI Backend
-
-Expose the RAG pipeline as an API.
-
-✔ Frontend UI
-
-Build a chatbot interface using React / Vue / Streamlit.
-
-✔ Multi-file Formats
-
-Add support for DOCX, MD, HTML, images (OCR), etc.
 
 📄 License
 
